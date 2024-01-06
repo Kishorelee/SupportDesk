@@ -1,0 +1,42 @@
+/* UserTickets.css */
+
+.user-tickets-container {
+    margin: 20px;
+  }
+  
+  .user-tickets-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow effect */
+  }
+  
+  .user-tickets-table th, .user-tickets-table td {
+    padding: 10px;
+    border: 2px solid #ddd; /* Double-sided border */
+    text-align: left;
+  }
+  
+  .user-tickets-table th {
+    background-color: rgba(242, 242, 242, 0.7); /* Adjust the opacity as needed */
+  }
+  .closed-ticket, .in-progress-ticket {
+    font-weight: bold; /* Make the text bold */
+  }
+  
+  .closed-ticket {
+    background-color: #4CAF50; /* Green background for Closed status */
+    color: #ffffff; /* White text color for Closed status */
+  }
+  
+  .in-progress-ticket {
+    background-color: #ffeb3b; /* Yellow background for In Progress status */
+    color: #000000; /* Black text color for In Progress status */
+  }
+  
+
+  @media (max-width: 768px) {
+    .user-tickets-table th, .user-tickets-table td {
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  }
+  

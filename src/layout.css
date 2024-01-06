@@ -1,0 +1,81 @@
+/* Layout.css */
+
+.navbar {
+  background-color: #586998;
+  padding: 10px;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-item {
+  margin: 0;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.welcome-text {
+  margin-right: 10px;
+  color: #fff;
+}
+
+.logout-button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.auth-link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.theme-toggle-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  display: flex;
+  align-items: center;
+}
+
+.theme-toggle-button span {
+  margin-right: 5px; /* Adjust the spacing between icon and text */
+}
+
+.theme-toggle-button:hover {
+  color: #f39c12;
+   /* Change color on hover, adjust as needed */
+}
+/* Add this style to your existing CSS */
+
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .user-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .auth-link {
+    margin-top: 10px;
+    margin-right: 0;
+  }
+}

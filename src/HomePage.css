@@ -1,0 +1,51 @@
+/* HomePage.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  .section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background: url('./assets/desk2.jpg') center/cover no-repeat; /* Replace with your image path */
+  }
+  
+  .header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .header h1 {
+    margin: 0;
+    padding: 20px;
+    color: #FC674C;
+    border-radius: 10px;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Responsive Design */
+  
+  @media screen and (max-width: 768px) {
+    .header h1 {
+      font-size: 24px; /* Adjust font size for smaller screens */
+      padding: 10px; /* Adjust padding for smaller screens */
+    }
+  }
+  

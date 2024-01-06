@@ -1,0 +1,60 @@
+/* CreateTicket.css */
+
+.create-ticket-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.create-ticket-form {
+  display: grid;
+  gap: 15px;
+  
+}
+
+.create-ticket-form label {
+  display: block;
+  font-weight: bold; /* Make the text bold */
+  font-size: medium; /* Set medium font size */
+}
+
+.create-ticket-form input,
+.create-ticket-form textarea,
+.create-ticket-form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.create-ticket-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold; /* Make the button text bold */
+}
+
+/* Responsive layout adjustments */
+@media (max-width: 600px) {
+  .create-ticket-container {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .create-ticket-form {
+    grid-template-columns: 1fr;
+  }
+
+  .create-ticket-form button {
+    width: auto;
+  }
+}

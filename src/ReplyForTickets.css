@@ -1,0 +1,55 @@
+/* ReplyForTickets.css */
+
+.reply-for-tickets-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ccc; /* Double-sided border */
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow effect */
+}
+
+.reply-for-tickets-form {
+    display: grid;
+    gap: 15px;
+}
+
+.reply-for-tickets-form label {
+    display: block;
+}
+
+.reply-for-tickets-form textarea,
+.reply-for-tickets-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd; /* Single-sided border for form elements */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.reply-for-tickets-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Responsive layout adjustments */
+@media (max-width: 600px) {
+    .reply-for-tickets-container {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .reply-for-tickets-form {
+        grid-template-columns: 1fr; /* Display form elements in a single column */
+    }
+
+    .reply-for-tickets-form button {
+        width: auto; /* Allow button to take the natural width */
+    }
+}

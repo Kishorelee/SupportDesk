@@ -1,0 +1,51 @@
+/* Admin.css */
+
+.admin-dashboard {
+    margin: 20px; /* Light gray background */
+    padding: 20px;
+  }
+.admin-dashboard h2 {
+  background-color: #4caf50;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Dark border */
+  }
+  
+  th, td {
+    padding: 12px;
+    border: 1px solid #333; /* Dark border */
+    text-align: left;
+  }
+  
+  th {
+    background-color: #ddd; /* Light gray background for table header */
+  }
+  
+  /* Additional styling for specific rows */
+  .open-ticket {
+    background-color: rgba(255, 204, 203, 0.3); /* Light red background for open tickets */
+  }
+  
+  .pending-ticket {
+    background-color: rgba(255, 255, 204, 0.7); /* Light yellow background for pending tickets */
+  }
+  
+  .resolved-ticket {
+    background-color: rgba(204, 255, 204, 0.3); /* Light green background for resolved tickets */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    th, td {
+      font-size: 14px;
+    }
+  }
+  

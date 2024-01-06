@@ -1,0 +1,50 @@
+/* EmployeeUI.css */
+
+.employee-ui {
+    padding: 20px;
+  }
+  
+  .nav-links {
+    background-color: #4caf50; /* Set the background color for the navigation bar */
+    padding: 10px 0; /* Add some padding for better aesthetics */
+  }
+  
+  .nav-links ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Enable flex items to wrap to the next line */
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+    margin-bottom: 10px; /* Add margin at the bottom for spacing between items */
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white; /* Set the text color to white */
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #00bcd4; /* Change the color on hover */
+  }
+  
+  .active-link {
+    font-weight: bold; /* Highlight the active link */
+    color: #00bcd4;
+  }
+  
+  /* Media Query for responsiveness */
+  @media screen and (max-width: 768px) {
+    .nav-links ul {
+      justify-content: center; /* Center the items when they wrap to the next line */
+    }
+  
+    .nav-links li {
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+  }
+  

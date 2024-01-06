@@ -1,0 +1,55 @@
+.notification-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .notification-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .notification-table th,
+  .notification-table td {
+    padding: 15px; /* Increased padding */
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .notification-table th {
+    background-color: rgba(242, 242, 242, 0.7);
+  }
+  
+  .notification-table tbody tr:hover {
+    background-color: rgba(242, 242, 242, 0.7);
+  }
+  
+  .ticket-id,
+  .message,
+  .status,
+  .user-id {
+    width: 100%;
+  }
+  
+  /* Styling for Closed status */
+  
+  /* Styling for Message with green color */
+ 
+  /* Add more styles as needed */
+  
+  /* Responsive Design */
+  @media only screen and (min-width: 600px) {
+    .ticket-id,
+    .message,
+    .status,
+    .user-id {
+      width: auto;
+    }
+    
+    .notification-table th,
+    .notification-table td {
+      padding: 15px; /* Maintain the increased padding in larger screens */
+    }
+  }
+  
